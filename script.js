@@ -144,4 +144,3 @@ function gameOver(){
     clearInterval(animaVoar)
     textoGameOver.innerHTML= `<span class='titulo'>!!GAME OVER!!</span> <br> Voce conseguiu <br><span class='ponto'>${ponto}</span> ${ponto > 1 ? 'pontos': 'ponto'}`
 }
-/*ppp*/
